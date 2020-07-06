@@ -2,6 +2,22 @@
 # Rod
 A simple language to convert a switch case into ternary operator in C style. Works with everything!
 
+## Usage
+
+Install using:
+
+```
+% make install
+```
+
+Put your source in a file and do:
+
+```
+% rod myfile.rod
+```
+
+## Language
+
 ```
 prop("Test") ::: "X"
 ---
