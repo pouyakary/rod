@@ -8,3 +8,6 @@ clean:
 run: build
 	clear
 	./build/rod ./sample.rod
+
+install: build
+	sudo mv ./build/rod /usr/local/bin
